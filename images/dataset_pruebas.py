@@ -12,5 +12,5 @@ def decode(ruta):
 
 Lechuga = cv2.imdecode(decode('images/Lechuga.txt'), cv2.IMREAD_COLOR) # Lee la imagen con OpenCV
 Lena = cv2.imdecode(decode('images/Lena.txt'), cv2.IMREAD_COLOR)
-Rayas = cv2.imdecode(decode('images/Rayas_verticales.txt'), cv2.IMREAD_COLOR)
+Rayas_verticales = cv2.imdecode(decode('images/Rayas_verticales.txt'), cv2.IMREAD_COLOR)
 Tablero_ajedrez = cv2.imdecode(decode('images/Tablero_ajedrez.txt'), cv2.IMREAD_COLOR)
